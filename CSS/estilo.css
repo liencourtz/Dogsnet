@@ -1,0 +1,262 @@
+body{
+    background-color:aqua;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 15;
+    font-family: 'Oleo Script';
+}
+
+#paginaInicial{
+    color:rgb(233, 123, 191);
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    border: solid 3px rgb(5, 5, 5);
+    padding: 10px;
+    background-color: rgb(233, 123, 191);
+    color:#21dae0;
+    font-weight: bold;
+}
+
+ul{
+    text-align: right;
+}
+
+h1, h2{
+    margin-left: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    width: 20%;
+    background-color: white;
+    color: #21dae0;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    font-weight: bold;
+    color:rgb(233, 123, 191);
+}
+
+#capa{
+    width: 100%;
+    height: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.banner{
+    width: 50%;
+    height: 100%;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#item1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(233, 123, 191);
+    color: #21dae0;
+}
+#item2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+    background-color: rgb(255, 217, 0);
+    text-align: center;
+}
+
+#item3{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(233, 123, 191);
+    color: #21dae0;
+}
+
+#item4{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+    background-color: rgb(255, 217, 0);;
+    text-align: center;
+}
+
+#item5{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(233, 123, 191);
+    color: #21dae0;
+}
+
+#item6{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    
+    background-color: rgb(255, 217, 0);;
+    text-align: center;
+}
+
+#item7{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(233, 123, 191);
+    color: #21dae0;
+}
+
+#item8{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    
+    background-color: rgb(255, 217, 0);;
+    text-align: center;
+}
+
+#item9{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(233, 123, 191);
+    color: #21dae0;
+}
+
+#item10{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    
+    background-color: rgb(255, 217, 0);;
+    text-align: center;
+}
+
+#item11{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(233, 123, 191);
+    color: #21dae0;
+}
+
+#item12{
+    grid-column-start: 2;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    
+    background-color: rgb(255, 217, 0);;
+    text-align: center;
+}
+
+#item13{
+    grid-column-start: 1;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(233, 123, 191);
+    color: #21dae0;
+}
+
+#item14{
+    grid-column-start: 1;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    
+    background-color: rgb(255, 217, 0);;
+    text-align: center;
+}
+
+#item15{
+    grid-column-start: 2;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(233, 123, 191);
+    color: #21dae0;
+}
+
+#item16{
+    grid-column-start: 2;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    
+    background-color: rgb(255, 217, 0);;
+    text-align: center;
+}
+
+#item17{
+    grid-column-start: 1;
+    grid-row-start: 9;
+    grid-row-end: 9;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(233, 123, 191);
+    color: #21dae0;
+}
+
+#item18{
+    grid-column-start: 1;
+    grid-row-start: 10;
+    grid-row-end: 10;
+    
+    background-color: rgb(255, 217, 0);;
+    text-align: center;
+}
+
+#item19{
+    grid-column-start: 2;
+    grid-row-start: 9;
+    grid-row-end: 9;
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(233, 123, 191);
+    color: #21dae0;
+}
+
+#item20{
+    grid-column-start: 2;
+    grid-row-start: 10;
+    grid-row-end: 10;
+    
+    background-color: rgb(255, 217, 0);;
+    text-align: center;
+}
+
+
